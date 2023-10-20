@@ -24,6 +24,7 @@
 
 .hero__input {
     @include input;
+    margin-bottom: 16px;
 }
 
 .hero__btn {
@@ -31,6 +32,7 @@
     position: absolute;
     z-index: 10;
     margin: 0 auto;
+    margin-left: -175px;
 }
 
 .hero__p {
