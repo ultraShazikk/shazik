@@ -1,0 +1,48 @@
+.and {
+    margin-top: 100px;
+
+    .container {
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .and__heading {
+            color: #36536B;
+            font-family: "DM Serif Display";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 56px;
+            letter-spacing: -0.369px;
+            width: 100%;
+        }
+
+        .buttonjon {
+            margin-left: -175px;
+        }
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .and .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .and__heading {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .inputjon {
+        max-width: 327px;
+        width: 100%;
+        transform: translate(-57px);
+        padding-left: 80px;
+    }
+}

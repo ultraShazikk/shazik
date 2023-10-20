@@ -1,0 +1,60 @@
+.humos__2 {
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+picture {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    .hero__imge {
+        margin: 0 auto;
+        margin-left: -120px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .order {
+        order: calc(+1);
+    }
+
+    .hero__imges {
+        max-width: 149px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero__imge {
+        max-width: 149px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .humos__dsplay {
+        order: calc(-1);
+    }
+
+    .humos__display {
+        max-width: 370px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .humos__info {
+        text-align: center;
+    }
+
+    .humos__text {
+        max-width: 573px;
+        width: 100%;
+    }
+}
+
+.simple__item {
+    display: flex;
+}

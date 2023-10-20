@@ -1,0 +1,50 @@
+.bank {
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.bank__list {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+
+    .bank__item {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .bank__heading {
+        color: #36536B;
+        text-align: center;
+        font-family: "Public Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: -0.138px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .bank__text {
+        color: #6C8294;
+        text-align: center;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.115px;
+    }
+}
+
+@media only screen and (max-width: 444px) {
+    .bank__list {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
